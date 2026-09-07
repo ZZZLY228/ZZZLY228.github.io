@@ -1,0 +1,24 @@
+# Only reviewed showcase files may be added to this public repository.
+*
+!.gitignore
+!.nojekyll
+!README.md
+!favicon.svg
+!index.html
+!goldbench.html
+!roadtrip.html
+!styles.css
+!showcase.js
+!assets/
+assets/*
+!assets/goldbench-chart.png
+!assets/goldbench-drawing.png
+!assets/goldbench-compare.png
+!assets/goldbench-formula.png
+!assets/goldbench-macro.png
+!assets/roadtrip-map.png
+!assets/roadtrip-route.png
+!assets/roadtrip-trips.png
+!assets/roadtrip-album.png
+!assets/roadtrip-place.png
+!assets/roadtrip-layers.png

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="GoldBench: a market and macro chart tool for stocks, ETFs, gold and economic indicators, with drawing, comparison and custom expressions.">
+<meta name="theme-color" content="#f4f5f2">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>GoldBench — market and macro charts</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script src="showcase.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#features">Skip to the features</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="mark" href="index.html"><span class="glyph"></span>GoldBench &amp; RoadTrip</a>
+    <nav class="site-nav" aria-label="Apps">
+      <a href="goldbench.html" aria-current="page">GoldBench</a>
+      <a href="roadtrip.html">RoadTrip</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="page-head wrap">
+    <p class="eyebrow">Market and macro charts</p>
+    <h1>Read a market,<br><em>then mark it up.</em></h1>
+    <p class="lede">GoldBench charts stocks, ETFs, gold and economic indicators. Pick a symbol and a period and it gives you candles, volume and the numbers that go with them. From there you can draw on the chart, hold two symbols against each other, or write an expression across several of them and chart the result as candles.</p>
+    <div class="meta-row"><span>Browser and iPhone</span><span>Candlestick charts</span><span>Two-symbol comparison</span><span>Custom expressions</span><span>Economic indicators</span></div>
+  </section>
+
+  <div id="features">
+  <section class="feature wrap">
+    <div class="feature-head">
+      <div>
+        <p class="feature-num">01</p>
+        <h2>One symbol, the whole period</h2>
+      </div>
+      <p>Type a symbol or use a preset. Choose daily, weekly or monthly candles, and a period from three months out to ten years — or a custom start date. The row above the chart holds the last price, the change across the period, its high, its low and its range; volume sits under the candles.</p>
+    </div>
+    <button class="shot" data-image="assets/goldbench-chart.png" data-caption="GoldBench — one year of daily GLD candles with volume and period statistics." aria-label="Enlarge the GoldBench single-symbol screen">
+      <div class="window">
+        <div class="window-bar"><span></span><span></span><span></span><span class="title">GoldBench — single symbol</span></div>
+        <img src="assets/goldbench-chart.png" alt="GoldBench single-symbol view: GLD daily candles for one year, with last price, period change, high, low, range and volume" width="2800" height="1991">
+      </div>
+    </button>
+    <p class="caption">A year of daily gold-ETF candles, priced through early September 2026.</p>
+  </section>
+
+  <section class="feature wrap">
+    <div class="feature-head">
+      <div>
+        <p class="feature-num">02</p>
+        <h2>Draw on the chart, and keep it</h2>
+      </div>
+      <p>Add a trend line between two points, or a horizontal level that runs across the whole chart. Lines can be edited by date and price, hidden or deleted, and up to five live on a chart at once. They belong to that symbol, interval and period, so they are still there the next time you come back to it.</p>
+    </div>
+    <button class="shot" data-image="assets/goldbench-drawing.png" data-caption="GoldBench — a rising trend line and a horizontal level drawn on the same chart." aria-label="Enlarge the GoldBench drawing screen">
+      <div class="window">
+        <div class="window-bar"><span></span><span></span><span></span><span class="title">GoldBench — drawing</span></div>
+        <img src="assets/goldbench-drawing.png" alt="The same GLD chart with a rising trend line under the lows and a horizontal level across the period high" width="2800" height="1991">
+      </div>
+    </button>
+    <p class="caption">A trend line under the lows and a level across the period high, both drawn in the app.</p>
+  </section>
+
+  <section class="feature wrap">
+    <div class="feature-head">
+      <div>
+        <p class="feature-num">03</p>
+        <h2>Two symbols, one time axis</h2>
+      </div>
+      <p>Compare mode takes two symbols and charts their ratio as candles, so relative strength is something you can read rather than infer. Below it, both symbols are redrawn as percentages from a common starting point. Drag one chart and the other follows.</p>
+    </div>
+    <button class="shot" data-image="assets/goldbench-compare.png" data-caption="GoldBench — gold ETF against a broad market ETF: ratio candles above, both series as percentages below." aria-label="Enlarge the GoldBench comparison screen">
+      <div class="window">
+        <div class="window-bar"><span></span><span></span><span></span><span class="title">GoldBench — compare</span></div>
+        <img src="assets/goldbench-compare.png" alt="GoldBench comparison view: a ratio candlestick chart above, and both symbols drawn as percentage change below" width="2800" height="2586">
+      </div>
+    </button>
+    <p class="caption">Five years of weekly data for a gold ETF and a broad market ETF.</p>
+  </section>
+
+  <section class="feature wrap">
+    <div class="feature-head">
+      <div>
+        <p class="feature-num">04</p>
+        <h2>Write the series you want</h2>
+      </div>
+      <p>Type an expression over several symbols and the result comes back as a full candle series, not a closing-price line. The symbols the expression used are listed under the chart and can be opened for their own charts. Drawing works here too.</p>
+    </div>
+    <button class="shot" data-image="assets/goldbench-formula.png" data-caption="GoldBench — a two-symbol expression charted as its own candle series." aria-label="Enlarge the GoldBench expression screen">
+      <div class="window">
+        <div class="window-bar"><span></span><span></span><span></span><span class="title">GoldBench — custom expression</span></div>
+        <img src="assets/goldbench-formula.png" alt="GoldBench expression view: the expression bracket GLD divided by bracket SPY charted as candles with period statistics" width="2800" height="2066">
+      </div>
+    </button>
+    <p class="caption">One expression across two symbols, charted like any other series.</p>
+  </section>
+
+  <section class="feature wrap">
+    <div class="feature-head">
+      <div>
+        <p class="feature-num">05</p>
+        <h2>The economic backdrop</h2>
+      </div>
+      <p>Yields, inflation expectations, spreads, the policy rate, money supply, unemployment and the dollar index sit next to the market presets and open in the same chart, with the same intervals, periods and drawing tools. They can also be used inside an expression alongside a market symbol.</p>
+    </div>
+    <button class="shot" data-image="assets/goldbench-macro.png" data-caption="GoldBench — a ten-year view of the 10-year Treasury yield." aria-label="Enlarge the GoldBench economic indicator screen">
+      <div class="window">
+        <div class="window-bar"><span></span><span></span><span></span><span class="title">GoldBench — economic indicator</span></div>
+        <img src="assets/goldbench-macro.png" alt="GoldBench charting the ten-year Treasury yield as monthly candles over ten years" width="2800" height="1991">
+      </div>
+    </button>
+    <p class="caption">Ten years of the 10-year Treasury yield, monthly.</p>
+  </section>
+  </div>
+
+  <section class="steps wrap">
+    <h2>How it goes</h2>
+    <ol>
+      <li><strong>Pick a symbol</strong><span>Type it, or tap one of the presets for a well-known stock, ETF, gold or an economic indicator.</span></li>
+      <li><strong>Set the period</strong><span>Daily, weekly or monthly candles; three months through ten years, or a start date of your own.</span></li>
+      <li><strong>Read the numbers</strong><span>Last price, change across the period, high, low, range and volume, all for exactly the window on screen.</span></li>
+      <li><strong>Mark it up</strong><span>Draw a trend line or a level. It stays with that chart until you delete it.</span></li>
+      <li><strong>Compare or combine</strong><span>Put a second symbol beside it, or write an expression across several and chart the result.</span></li>
+    </ol>
+  </section>
+
+  <section class="note wrap">
+    <p>Screens are from the app itself, showing real market and economic history. Interface text is shown in English. No implementation is published here.</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>© 2026 · GoldBench &amp; RoadTrip</span>
+  <a href="roadtrip.html">RoadTrip →</a>
+</footer>
+
+<dialog id="viewer">
+  <div class="viewer">
+    <img id="viewer-image" alt="">
+    <div class="viewer-bar"><p id="viewer-caption"></p><button id="viewer-close" autofocus>Close ×</button></div>
+  </div>
+</dialog>
+</body>
+</html>

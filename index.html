@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="GoldBench and RoadTrip: two independently built apps, shown through their own screens.">
+<meta name="theme-color" content="#f4f5f2">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>GoldBench &amp; RoadTrip</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+<script src="showcase.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#apps">Skip to the apps</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="mark" href="index.html"><span class="glyph"></span>GoldBench &amp; RoadTrip</a>
+    <nav class="site-nav" aria-label="Apps">
+      <a href="goldbench.html">GoldBench</a>
+      <a href="roadtrip.html">RoadTrip</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero wrap">
+    <p class="eyebrow">Independently designed and built</p>
+    <h1>A market chart tool.<br>A driving companion.<br><em>Two apps, shown in full.</em></h1>
+    <p class="lede">GoldBench turns prices and economic indicators into charts you can read, mark up and compare. RoadTrip records the roads you drive, keeps the day's photos with the day's route, and tells you what is around you. Each one is shown here through its own screens.</p>
+    <div class="hero-links">
+      <a class="button dark" href="goldbench.html">See GoldBench →</a>
+      <a class="button" href="roadtrip.html">See RoadTrip →</a>
+    </div>
+  </section>
+
+  <section class="apps wrap" id="apps">
+    <article class="app-card">
+      <div>
+        <h2>GoldBench</h2>
+        <p class="app-kind">Market and macro charts · Browser and iPhone</p>
+        <p class="body">Type a symbol and read it properly: candles, volume and the numbers for the period you picked. Draw on the chart, put two symbols against each other, or write an expression across several of them and chart the result.</p>
+        <ul class="tick">
+          <li>Stocks, ETFs, gold and economic indicators in one place</li>
+          <li>Daily, weekly and monthly candles over ranges from three months to ten years</li>
+          <li>Trend lines and price levels you can draw and keep</li>
+          <li>Two-symbol comparison with a ratio chart, and custom expressions</li>
+        </ul>
+        <a class="button" href="goldbench.html">Open the GoldBench page →</a>
+      </div>
+      <div class="app-visual">
+        <div class="window">
+          <div class="window-bar"><span></span><span></span><span></span><span class="title">GoldBench</span></div>
+          <img src="assets/goldbench-chart.png" alt="GoldBench showing a year of daily GLD candles with volume and period statistics" width="2800" height="1991" fetchpriority="high">
+        </div>
+      </div>
+    </article>
+
+    <article class="app-card flip">
+      <div>
+        <h2>RoadTrip</h2>
+        <p class="app-kind">Driving companion · iPhone</p>
+        <p class="body">Press record and drive. The route is drawn as you go, the day's photos and videos land in that day's folder on their own, and the map shows the weather, the parks and the places worth stopping for. Everything stays on the phone.</p>
+        <ul class="tick">
+          <li>Route recording that keeps going in the background</li>
+          <li>Saved trips by day, week or month, with distance and drive time</li>
+          <li>A photo folder per driving day, matched to the route by capture time</li>
+          <li>Weather, map layers, place cards and handoff to a navigation app</li>
+        </ul>
+        <a class="button" href="roadtrip.html">Open the RoadTrip page →</a>
+      </div>
+      <div class="app-visual">
+        <div class="pending">
+          <p class="pending-title">RoadTrip</p>
+          <p>Screens from the app are being remade from real recorded drives, and will appear here shortly.</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="note wrap">
+    <p>Both apps are independently designed and built. This site is a product showcase: it shows what the apps do and what they look like. It is not a download, and no implementation is published here.</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <span>© 2026 · GoldBench &amp; RoadTrip</span>
+  <a href="#top">Back to top ↑</a>
+</footer>
+
+<dialog id="viewer">
+  <div class="viewer">
+    <img id="viewer-image" alt="">
+    <div class="viewer-bar"><p id="viewer-caption"></p><button id="viewer-close" autofocus>Close ×</button></div>
+  </div>
+</dialog>
+</body>
+</html>
