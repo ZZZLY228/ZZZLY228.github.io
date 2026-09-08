@@ -74,7 +74,7 @@ h1{font-size:clamp(40px,5.4vw,64px);line-height:1.08;letter-spacing:-2.2px;font-
 .feature-head p{margin:0;color:var(--muted)}
 .caption{font-size:13px;color:var(--muted);margin:14px 0 0}
 .phone-row{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
-.phone-item{width:min(290px,100%)}
+.phone-item{margin:0;width:min(290px,100%)}
 .phone-item .caption{margin-top:12px}
 
 /* steps */

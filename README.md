@@ -12,10 +12,12 @@ A chart tool for stocks, ETFs, gold and economic indicators. Pick a symbol and a
 
 ## RoadTrip — a driving companion for iPhone
 
-Press record and drive: the route is drawn as you go and kept afterwards with its distance and drive time. Photos and videos taken along the way are filed into that day's folder on their own. The map carries the weather above you and the places beside you, including a restaurant's health inspection record, and hands a destination to your navigation app. Everything stays on the phone.
+Press record and drive: the route is drawn as you go and kept afterwards with its distance and drive time. Photos and videos taken along the way are filed into that day's folder on their own. The map carries the weather above you and the places beside you, including a restaurant's health inspection record, and hands a destination to your navigation app. Saved drives stay on the phone.
 
 **[RoadTrip →](https://zzzly228.github.io/roadtrip.html)**
 
 ---
 
 This repository holds the showcase site and its screenshots. It is not a download, and no implementation is published here.
+
+RoadTrip screenshots use screened segments from recorded GPS history, with private trip endpoints omitted and displayed dates and times anonymized. No route coordinates are simulated. Raw journey records and diagnostic logs are not included.
