@@ -20,4 +20,4 @@ Press record and drive: the route is drawn as you go and kept afterwards with it
 
 This repository holds the showcase site and its screenshots. It is not a download, and no implementation is published here.
 
-RoadTrip screenshots use screened segments from recorded GPS history, with private trip endpoints omitted and displayed dates and times anonymized. No route coordinates are simulated. Raw journey records and diagnostic logs are not included.
+RoadTrip features the actual August 5–22, 2026 cross-country journey, with departure and arrival regions withheld. A full route overview accompanies app screenshots from Glacier National Park, Mount Rushmore, Rapid City and the Grand Rapids area. The excerpts retain their original coordinates and timestamps; caption dates use local time. Only reviewed images are published. Raw GPS records, diagnostic logs and personal photos remain private.
