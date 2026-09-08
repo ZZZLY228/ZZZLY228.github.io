@@ -1,4 +1,4 @@
-# GoldBench & RoadTrip
+# Product Showcase
 
 Two independently designed and built apps, shown through their own screens.
 
